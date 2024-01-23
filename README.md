@@ -29,4 +29,8 @@
 - 회원 이름,상품명,배송 주소,수량
 2. 주문 내역
 - 검색 기능,주문 수정 기능
+
+### 도메인 분석
+ ![KakaoTalk_20240123_182308862](https://github.com/brian506/jpashop/assets/135039872/7bcb6f3e-1d57-499f-addc-52dcce2a6937)
+
   
