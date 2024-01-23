@@ -12,7 +12,7 @@ public class Delivery {
     @Column(name = "delivery_id")
     private Long id;
 
-    @OneToOne(mappedBy = "delivery")
+    @OneToOne(mappedBy = "delivery") // order(주인)와 일대일 양방향관계
     private Order order;
 
     @Embedded
