@@ -27,8 +27,13 @@ public abstract class Item {
 
     private int stockQuantity;
 
+    //orderItem 객체 선언이 없는 이유는 단방향이기 때문
+    //모든 주문상품을 볼때 상품들을 각각 볼 필요가 없음
+
     @ManyToMany
     private List<Category> categories = new ArrayList<>();
 
+    @OneToOne(mappedBy = "item",fetch = FetchType.LAZY)
+    private Review review;
 
 }
