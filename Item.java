@@ -1,4 +1,3 @@
- 상품 도메인
 
 package jpabook.jpashop.domain.item;
 
